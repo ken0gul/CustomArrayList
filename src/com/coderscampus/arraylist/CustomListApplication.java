@@ -1,11 +1,19 @@
 package com.coderscampus.arraylist;
 
+
 public class CustomListApplication {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		CustomList<String> yourList = new CustomArrayList<>();
+		yourList.add("John");
 
+		System.out.println(yourList);
+	
 	}
+
+
+	
+	
 
 }
 	
