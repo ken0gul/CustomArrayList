@@ -1,6 +1,5 @@
 package com.coderscampus.arraylist;
 
-
 public class CustomListApplication {
 
 	public static void main(String[] args) {
@@ -17,15 +16,22 @@ public class CustomListApplication {
 		yourList.add("John");
 		yourList.add("Sam");
 		yourList.add("Maggie");
+		yourList.add("John");
+		yourList.add("Sam");
+		yourList.add("Maggie");
+		yourList.add("John");
+		yourList.add("Sam");
+		yourList.add("Maggie");
+		yourList.add("John");
+		yourList.add("Sam");
+		yourList.add("Maggie");
+		yourList.add("John");
+		yourList.add("Sam");
+		yourList.add("Maggie");
 		System.out.println(yourList);
-		System.out.println(yourList.get(11));
+		System.out.println(yourList.get(21));
 		System.out.println(yourList.getSize());
-	
+
 	}
 
-
-	
-	
-
 }
-	
