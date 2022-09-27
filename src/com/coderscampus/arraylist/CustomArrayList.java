@@ -24,7 +24,7 @@ public class CustomArrayList<T> implements CustomList<T> {
 				items[i] = item;
 				items = Arrays.copyOf(items, newSize);
 
-				break;
+//				break;
 			}
 
 			else
